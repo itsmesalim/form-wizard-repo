@@ -156,7 +156,7 @@ const TableComponent = ({ formData }: TableComponentProps) => {
                     No submitted forms yet.
                   </p>
                   <p className="mt-2 text-sm text-slate-500">
-                    when submiting the form records will be apear her. honge.
+                    when submiting the form records will be apear her.
                   </p>
                 </td>
               </tr>
