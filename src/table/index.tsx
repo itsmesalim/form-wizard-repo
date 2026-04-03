@@ -28,7 +28,7 @@ const TableComponent = ({ formData }: TableComponentProps) => {
             Student Data Table
           </h2>
           <p className="mt-2 text-sm text-slate-600">
-            Sare submitted forms ek clean, readable table me available hain.
+            All submitted forms available in a clean, readable table format.
           </p>
         </div>
         <div className="inline-flex w-fit rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm font-bold text-slate-700">
@@ -91,7 +91,7 @@ const TableComponent = ({ formData }: TableComponentProps) => {
                     className="align-top transition hover:bg-sky-50/60"
                   >
                     <td className="p-4">
-                      <div className="min-w-[220px]">
+                      <div className="min-w-55">
                         <p className="text-sm font-black text-slate-900">
                           {fullName}
                         </p>
@@ -104,7 +104,7 @@ const TableComponent = ({ formData }: TableComponentProps) => {
                       {age}
                     </td>
                     <td className="p-4">
-                      <p className="min-w-[220px] text-sm leading-6 text-slate-600">
+                      <p className="min-w-55 text-sm leading-6 text-slate-600">
                         {Address}
                       </p>
                     </td>
@@ -125,7 +125,7 @@ const TableComponent = ({ formData }: TableComponentProps) => {
                       </span>
                     </td>
                     <td className="p-4">
-                      <div className="min-w-[260px] space-y-2 rounded-2xl bg-slate-50 p-4">
+                      <div className="min-w-65 space-y-2 rounded-2xl bg-slate-50 p-4">
                         <p className="text-sm font-semibold text-slate-700">
                           <span className="font-black text-slate-900">
                             Experience:

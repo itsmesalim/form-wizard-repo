@@ -110,8 +110,9 @@ function App() {
                 Smart student profile form with a cleaner workflow.
               </h1>
               <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-                Har step ko clear sections me organize kiya gaya hai taake data
-                entry fast, readable aur refresh ke baad persistent rahe.
+                Each step has been organized into clear sections so that data
+                entry is fast, readable, and remains persistent even after a
+                refresh.
               </p>
 
               <div className="mt-8 grid gap-4 sm:grid-cols-3">
