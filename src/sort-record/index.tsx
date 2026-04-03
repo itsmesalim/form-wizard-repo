@@ -174,7 +174,9 @@ const SortRecord = ({ formData }: FilteredComponentProps) => {
             <p className="text-lg font-bold tracking-tight">
               Now Leader Board is empty!
             </p>
-            <p className="mt-2 text-sm text-slate-200/80">kkk</p>
+            <p className="mt-2 text-sm text-slate-200/80">
+              No records available at the moment.
+            </p>
           </div>
         </div>
       )}
