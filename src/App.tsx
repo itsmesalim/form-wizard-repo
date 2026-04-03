@@ -95,12 +95,7 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem(CURRENT_FORM_STORAGE_KEY, JSON.stringify(data));
-    if (currentStepIndex === 0 && data === INITIAL_DATA) {
-      localStorage.removeItem(CURRENT_FORM_STORAGE_KEY);
-    }
   }, [data]);
-
-
 
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_28%),radial-gradient(circle_at_top_right,rgba(59,130,246,0.16),transparent_22%),linear-gradient(180deg,#f8fafc_0%,#e0f2fe_48%,#f8fafc_100%)] px-4 py-8 font-[Arial] sm:px-6 lg:px-8">
